@@ -11,8 +11,8 @@ spring:
     name: microservicecloud-dept
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
-    driver-class-name: com.mysql.jdbc.Driver                # mysql驱动包
-    url: jdbc:mysql://localhost:3306/cloudDB01              # 数据库名称
+    driver-class-name: com.mysql.jdbc.Driver               # mysql驱动包
+    url: jdbc:mysql://localhost:3306/cloudDB01?useSSL=false              # 数据库名称
     username: root
     password: 123456
     dbcp2:
@@ -31,8 +31,8 @@ eureka:
     prefer-ip-address: true     #访问路径可以显示IP地址
 
 info:
-  app.name: atguigu-microservicecloud
-  company.name: www.atguigu.com
+  app.name: monochrome-microservicecloud
+  company.name: www.monochrome.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 
