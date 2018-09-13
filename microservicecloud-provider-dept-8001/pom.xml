@@ -12,15 +12,11 @@
     <artifactId>microservicecloud-provider-dept-8001</artifactId>
 
     <dependencies>
+        <!-- 引入自己定义的api通用包，可以使用Dept部门Entity -->
         <dependency>
             <groupId>com.monochrome</groupId>
             <artifactId>microservicecloud-api</artifactId>
             <version>${project.version}</version>
-        </dependency>
-        <!-- actuator监控信息完善 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
         <!-- 将微服务provider侧注册进eureka -->
         <dependency>
@@ -73,5 +69,6 @@
             <artifactId>spring-boot-devtools</artifactId>
         </dependency>
     </dependencies>
+
 
 </project>
