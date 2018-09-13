@@ -10,6 +10,8 @@
         <module name="microservicecloudapi" />
         <module name="microservicecloudconsumerdept80" />
         <module name="microservicecloudeureka7001" />
+        <module name="microservicecloudeureka7002" />
+        <module name="microservicecloudeureka7003" />
         <module name="microservicecloudproviderdept8001" />
       </profile>
     </annotationProcessing>
