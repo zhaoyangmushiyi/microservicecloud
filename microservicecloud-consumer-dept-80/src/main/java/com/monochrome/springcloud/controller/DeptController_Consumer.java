@@ -30,8 +30,11 @@ public class DeptController_Consumer {
         return restTemplate.getForObject(REST_URL_PREFIX + "/dept/get/" + id, Dept.class);
     }
 
-    @RequestMapping("/dept/list")
-    public List<Dept> listDept() {
+    @RequestMapping("/dept/list") public List<Dept> listDept() {
         return restTemplate.getForObject(REST_URL_PREFIX + "/dept/list", List.class);
+    }
+
+    @RequestMapping("/dept/discovery") public Object discovery() {
+        return restTemplate.getForObject(REST_URL_PREFIX + "/dept/discovery", Object.class);
     }
 }
