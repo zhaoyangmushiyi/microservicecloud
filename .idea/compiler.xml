@@ -13,6 +13,8 @@
         <module name="microservicecloudeureka7002" />
         <module name="microservicecloudeureka7003" />
         <module name="microservicecloudproviderdept8001" />
+        <module name="microservicecloudproviderdept8002" />
+        <module name="microservicecloudproviderdept8003" />
       </profile>
     </annotationProcessing>
   </component>
