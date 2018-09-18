@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservicecloudapi" />
         <module name="microservicecloudconfig3344" />
+        <module name="microservicecloudconfigclient3355" />
         <module name="microservicecloudconsumerdept80" />
         <module name="microservicecloudconsumerdeptfeign" />
         <module name="microservicecloudconsumerhystrixdashboard" />
